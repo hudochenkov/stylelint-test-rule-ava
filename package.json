@@ -1,0 +1,33 @@
+{
+  "name": "stylelint-test-rule-ava",
+  "version": "0.1.0",
+  "description": "A stylelint rule tester using AVA.",
+  "keywords": [
+    "stylelint",
+    "test",
+    "ava"
+  ],
+  "author": "Aleks Hudochenkov <aleks@hudochenkov.com>",
+  "license": "MIT",
+  "repository": "hudochenkov/stylelint-test-rule-ava",
+  "bugs": {
+    "url": "https://github.com/hudochenkov/stylelint-test-rule-ava/issues"
+  },
+  "homepage": "https://github.com/hudochenkov/stylelint-test-rule-ava",
+  "engines": {
+    "node": ">=4"
+  },
+  "files": [
+    "index.js"
+  ],
+  "dependencies": {
+    "ava": "^0.16.0",
+    "stylelint": "^7.3.1"
+  },
+  "devDependencies": {
+    "eslint": "^3.6.1"
+  },
+  "scripts": {
+    "test": "eslint index.js"
+  }
+}
