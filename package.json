@@ -21,11 +21,11 @@
     "index.js"
   ],
   "dependencies": {
-    "ava": "^0.16.0",
-    "stylelint": "^7.3.1"
+    "ava": "^0.18.1",
+    "stylelint": "^7.8.0"
   },
   "devDependencies": {
-    "eslint": "^3.6.1"
+    "eslint": "^3.15.0"
   },
   "scripts": {
     "test": "eslint index.js"
